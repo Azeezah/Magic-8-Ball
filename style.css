@@ -6,6 +6,7 @@ body {
 	width: 400px;
 	height: 400px;
 	margin: auto;
+	margin-top: 40px;
 	background: black;
 	border-radius: 200px;
 	-moz-border-radius: 200px;

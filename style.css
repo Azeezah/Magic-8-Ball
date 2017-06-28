@@ -1,0 +1,52 @@
+body {
+	font-family: 'Dancing Script', cursive;
+	background-color: green;
+}
+.ball#blackpart {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	background: black;
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+}
+
+.ball#whitepart {
+	width: 200px;
+	height: 200px;
+	background: white;
+	margin: auto;
+	top: 100px;
+
+	color: black;
+	font-size: 200px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 150px;
+	font-family: 'Pacifico', cursive;
+
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	position: relative;
+}
+
+#output {
+	text-align: center;
+	font-size: 150px;
+	color: white;
+}
+
+input, input:focus {
+	outline: none;	/* removes blue outline on focus */
+	background: transparent;
+	border: 0px;
+	border-bottom: 10px dashed;
+
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 75px;
+	margin: 75px;
+	text-align: center;
+}

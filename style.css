@@ -1,5 +1,6 @@
 body {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Pacifico', cursive;
+	font-size: 200px;
 	background-color: green;
 }
 .ball#blackpart {
@@ -19,18 +20,19 @@ body {
 	background: white;
 	margin: auto;
 	top: 100px;
-
 	color: black;
-	font-size: 200px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 150px;
-	font-family: 'Pacifico', cursive;
-
 	border-radius: 100px;
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
 	position: relative;
+}
+
+.predictionText {
+	font-size: 20px;
+
 }
 
 #output {
